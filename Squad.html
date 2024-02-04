@@ -20,7 +20,7 @@
 				<nav>
 					<ul>
 						<li><a href="index.html#three">Home</a></li>
-						<li><a href="Squad.html" class="active">Squad AI Coordinator</a></li>
+						<li><a href="Squad.html" class="active">Souls-Like Combat System</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -28,13 +28,39 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Squad AI Coordinator</h1>
+							<h1 class="major">Souls-Like Combat System</h1>
+
+							<p>After putting way too many hours into Lies of P and Elden Ring, I decided to try implementing a combat system that emulates the mechanics from those games.
+								 Current functionality includes: directional dodge, hit detection system, ragdoll character death, health system, stat system for weapons and armor, player state manager, implementation of
+								 attack combos and combat resetting, and Pick up actors for different weapons
+							</p>
+
+
 
 							<center>
 							<iframe width="1020" height="680"
-							src="https://youtube.com/embed/sPXPmyQLpDI?autoplay=1?mute=1">
+							src="https://youtube.com/embed/hemNg6KTubk?autoplay=1?mute=1">
 							</iframe>
 
+							<p> The player is able to equip and unequip the weapon, as well as attack. The animations keep track of when the player can combo or reset by using animation notifys.
+							</p>
+
+							<center>
+							<iframe width="1020" height="680"
+							src="		https://youtube.com/embed/qnxstEM_PqE?autoplay=1?mute=1">
+							</iframe>
+
+							<p>Player is able to utilize the pickup actor to add a new weapon. The Hit detection system uses a multi sphere trace by objects as well as start and end sockets that are a part of a basic weapon blueprint that all weapons inherit from
+								that define start and end locations for the hit detection for the weapon
+							</p>
+
+
+							<p>Bugs Currently Working On: When attacking with great sword the player floats above the ground a bit, and implementing dual weaponry
+							</p>
+
+
+							<p>Assets Used: Weapon Pack(included the weapons and some animations), Great Sword Animation Pack, Monster Animation Pack, Kraken and Ice Giant Asset Pack, Paragon Character Packs(for the armor and some of the weapons)
+							</p>
 							<br>
 							<br>
 						</div>
