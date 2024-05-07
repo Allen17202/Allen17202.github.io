@@ -1060,6 +1060,7 @@ input, select, textarea {
 
 		}
 
+
 		@media screen and (max-width: 980px) {
 
 			.row {
@@ -2566,6 +2567,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		margin:0px;
 	}
 
 		.image img {
